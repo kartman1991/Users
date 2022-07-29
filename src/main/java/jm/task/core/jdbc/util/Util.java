@@ -6,7 +6,7 @@ public class Util {
         Connection connection = null;
         try {
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306", "root", "rootroot");
-            connection.setAutoCommit(false);
+//            connection.setAutoCommit(false);
         } catch (SQLException e) {
             System.out.println("Not connected");
         }
